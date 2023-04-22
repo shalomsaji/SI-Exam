@@ -1,0 +1,13 @@
+.si_lott {
+    display:none;
+  }
+  .cq1{display:none;}
+  @media (min-width: 321px) and (max-width: 480px)
+  {
+  .si_logo {
+   display:none;
+  }.si_lott {
+    display:block;
+  }.cq1{display:block;}
+  .navbar-toggler{ visibility: hidden;}
+  }
