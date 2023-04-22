@@ -57,11 +57,11 @@
     </div>
   </div>
 
-  <form onsubmit="return true;" id="form" style="padding-top: 7em;" class="mx-auto needs-validation"
-    action="public/testquiz.html" novalidate>
+  <form id="form" style="padding-top: 7em;" class="mx-auto needs-validation"
+    action="/signupaction" novalidate>
     <div class="mb-3 col-lg-3 mx-auto">
       <label for="inputName" class="form-label">Name</label>
-      <input type="text" class="form-control" id="inputName" required>
+      <input type="text" class="form-control" name="inputName" id="inputName" required>
       <div class="valid-feedback">
         Looks good!
       </div>
@@ -69,11 +69,11 @@
 
     <div class="mb-3 col-lg-3 mx-auto">
       <label for="inputPhone" class="form-label">Phone</label>
-      <input type="number" class="form-control" id="inputPhone">
+      <input type="number" name="inputPhone" class="form-control" id="inputPhone">
     </div>
     <div class="mb-3 col-lg-3 mx-auto">
       <label for="inputClass" class="form-label">Class</label>
-      <select id="inputClass" class="form-select">
+      <select id="inputClass" name='inputClass'class="form-select">
         <option selected="">Select Class</option>
         <option value="5">Class 5</option>
         <option value="6">Class 6</option>
