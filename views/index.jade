@@ -1,5 +1,30 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+ .container(class='col-lg-4  mx-auto')
+   h1 Registration
+   p.lead Create an account. Already have one?
+     a(href='/login')  Login Now.
+   form(class='col-lg-12 mx-auto' role='form', action='/register', method='post')
+     .form-group
+       label(for='username') 
+       input.form-control(type='text', id='username', name='username', placeholder='Enter your name')
+     .form-group
+       label(for='phone')
+       input.form-control(type='tel', id='phone', name='phone', placeholder='Enter Mobile Number')
+     .form-group
+       label(for="class")
+       select.form-control(id="class", name="class", placeholder="Select your class")
+            option(value="",disabled,selected) Select your class
+            option(value="5") Class 5
+            option(value="6") Class 6
+            option(value="7") Class 7
+            option(value="8") Class 8
+            option(value="9") Class 9
+            option(value="10") Class 10
+            
+     button.btn.btn-primary(type='submit') Sign Up
+     &nbsp;
+     a.btn.btn-default(href='/', role='button') Cancel
+
+  h4.text-danger= info
