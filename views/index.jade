@@ -1,10 +1,21 @@
 extends layout
 
+
+
 block content
+ link(rel='stylesheet', href='/stylesheets/index.css')
+ nav.navbar.navbar-light.bg-light
+  a.navbar-brand.mx-auto(href='#')
+    img.d-inline-block.align-top(src='https://studentsindia.in/quiz1//assets/main/images/SI_Logo.png' alt='' width='30' height='30') 
+    |     Students India
+ br   
+ .image
+   img.ppimage(src="/images/pp.png", alt="PP Image")
+ br  
  .container(class='col-lg-4  mx-auto')
    h1 Registration
-   p.lead Create an account. Already have one?
-     a(href='/login')  Login Now.
+      //-  p.lead Create an account. Already have one?
+              a(href='/login')  Login Now. 
    form(class='col-lg-12 mx-auto' role='form', action='/register', method='post')
      .form-group
        label(for='username') 
@@ -14,7 +25,7 @@ block content
        input.form-control(type='tel', id='phone', name='phone', placeholder='Enter Mobile Number')
      .form-group
        label(for="class")
-       select.form-control(id="class", name="class", placeholder="Select your class")
+       select.form-control(id="class", name="class")
             option(value="",disabled,selected) Select your class
             option(value="5") Class 5
             option(value="6") Class 6
@@ -22,9 +33,9 @@ block content
             option(value="8") Class 8
             option(value="9") Class 9
             option(value="10") Class 10
-            
-     button.btn.btn-primary(type='submit') Sign Up
-     &nbsp;
-     a.btn.btn-default(href='/', role='button') Cancel
+     div.submit-btn        
+      button.btn.btn-danger(type='submit') Sign Up
+      &nbsp;
+      a.btn.btn-default(href='/', role='button') Cancel
 
   h4.text-danger= info
