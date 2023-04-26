@@ -1,0 +1,36 @@
+
+<div class="container col-lg-4 mx-auto">
+    <h1>Registration</h1>
+    {{!-- <p class="lead">Create an account. Already have one?
+        <a href="/login">Login Now</a>
+    </p> --}}
+    <form action="/quiz" method="post" role='form' class="col-lg-12 mx-auto">
+        <div class="form-group">
+            <label for="username"></label>
+            <input type="text" class="form-control" id="username" name="username" placeholder="Enter your name">
+        </div>
+        <div class="form-group">
+            <label for="phone"></label>
+            <input type="tel" class="form-control" id="phone" name="phone" placeholder="Enter Mobile Number">
+        </div>
+        <div class="form-group">
+            <label for="class"></label>
+            <select name="class" id="class" name="class" class="form-control">
+                <option value="" disabled="disabled" selected="selected">Select your class</option>
+                <option value="5">Class 5</option>
+                <option value="6">Class 6</option>
+                <option value="7">Class 7</option>
+                <option value="8">Class 8</option>
+                <option value="9">Class 9</option>
+                <option value="10">Class 10</option>
+                
+            </select>
+        </div>
+        <div class="submit-btn">
+            <button class="btn btn-danger" type="submit">Sign Up</button>
+            &nbsp;
+            <a href="/" class="btn btn-default">Cancel</a>
+        </div>
+    </form>
+</div>
+
