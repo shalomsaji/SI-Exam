@@ -182,7 +182,7 @@
  }
  
  function tryAgain(){
-     window.location.reload();
+     window.location.href = "/";
  }
 
  window.onload=function(){

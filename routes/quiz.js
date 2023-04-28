@@ -2,7 +2,8 @@ var express = require('express');
 var router = express.Router();
 
 /* GET users listing. */
-router.post('/', function(req, res, next) {
+router.post('/',function(req,res,next) {
+  res.send('Hello')
   res.render('quiz', { title: 'Quiz' });
 });
 router.get('/', function(req,res, next){
