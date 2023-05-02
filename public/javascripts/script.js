@@ -1,4 +1,10 @@
- 
+
+
+
+const selected_class = require('../helpers/quiz-selector')
+
+
+  
   const options=document.querySelector(".options").children;
   const answerTrackerContainer=document.querySelector(".answers-tracker");
   const questionNumberSpan=document.querySelector(".question-num-value");
@@ -17,17 +23,24 @@
   let myArr=[];
   let score=0;
 
-  // questions and options and answers
+  let classQuiz = selected_class.retunClass();
+  
+  
+  console.log(classQuiz);
 
-  const questions=[
+
+  var questions
+  // questions and options and answers
+  if(classQuiz==10){
+   questions=[
    {
-    q:'where is the capital of India',
-    options:['New Delhi','Kolkatta','Varanashi','Agra'],
+    q:'\"കവികൾക്ക് ലോകമെമ്പാടും ഒരു ഭാഷയേയുള്ളൂ; ഇലകൾക്കും തത്തകൾക്കും ഗൗളികൾക്കുമെന്നപോലെ.\" - ഈ വരികളുടെ രചയിതാവ്?',
+    options:['ഒ. എൻ. വി. കുറുപ്പ്','കടമ്മനിട്ട രാമകൃഷ്ണൻ','സച്ചിദാനന്ദൻ','ജി. ശങ്കരക്കുറുപ്പ്'],
     answer:1
    },
    {
-    q:'Who is the Prime Minister of India',
-    options:['Amit Shah','Narendra Modi','Rahul Gandhi','None of the above'],
+    q:'മഷ്തിഷ്കത്തെ പൊതിഞ്ഞു കാണപ്പെടുന്ന മൂന്നു സ്തരപാളികളുള്ള ആവരണം? (The three layered membrane that covers the brain?)',
+    options:['ഷ്വാൻ കോശങ്ങൾ (Schwann Cells)','മെനിഞ്ചസ് (Meninges)','ഒലിഗോഡെൻഡ്രോസൈറ്റ് (Oligodendrocyte)','പെരികാർഡിയം (Pericardium)'],
     answer:2
    },
    {
@@ -71,6 +84,7 @@
     answer:2
    }
   ]
+}
 
   // set questions and options and question number
   totalQuestionSpan.innerHTML=questions.length;
@@ -190,5 +204,6 @@
   answerTrakcer();
  
 }
+
 
 

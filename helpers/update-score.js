@@ -1,11 +1,9 @@
 var db = require('../config/connection')
-var quizSelector= require("../helpers/quiz-selector")
 
 module.exports={
 
     addInfo:(userData)=>{
         return new Promise(async(resolve,reject)=>{
-            
             let loginStatus=false;
             let response={}
             let user=await db.get().collection("user").findOne({phone:userData.phone, class:userData.class, completed:userData.completed})
@@ -25,7 +23,6 @@ module.exports={
                 if(user.completed==false){
                     response.user=user
                     response.status=true
-                    
                     resolve(response)
                 }else if(user.completed==true){
                     console.log('User Exists')
@@ -33,7 +30,6 @@ module.exports={
                 }else{
                     response.user=user
                     response.status=true
-                    quizSelector.selectClass(user.class)
                     resolve(response)
                 }
                 
