@@ -33,6 +33,7 @@ module.exports={
                 }else{
                     response.user=user
                     response.status=true
+                    response.class=user.class
                     quizSelector.selectClass(user.class)
                     resolve(response)
                 }

@@ -6,6 +6,7 @@ module.exports={
         console.log("Selected Class:"+selectedClass)
     },
     returnClass:()=>{
+        console.log(selectedClass);
         return selectedClass
     }
     

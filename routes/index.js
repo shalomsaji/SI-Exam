@@ -12,8 +12,18 @@ router.post('/login', (req,res)=>{
   console.log(req.body)
   addUser.addInfo(req.body).then((response)=>{
     if(response.status){
-      
-      res.render('quiz', { title: 'Quiz' });
+      if(response.class==10)
+      res.render('quiz10', { title: 'Class 10 Quiz' });
+      else if(response.class==9)
+      res.render('quiz9', { title: 'Class 9 Quiz' });
+      else if(response.class==8)
+      res.render('quiz8', { title: 'Class 8 Quiz' });
+      else if(response.class==7)
+      res.render('quiz7', { title: 'Class 7 Quiz' });
+      else if(response.class==6)
+      res.render('quiz6', { title: 'Class 6 Quiz' });
+      else if(response.class==5)
+      res.render('quiz5', { title: 'Class 5 Quiz' });
     }else{
       res.render('error', {title: 'Unable to Sign Up', message: "Already attempted!!", details: "Only one attempt is allowed per user."})
     }

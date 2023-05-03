@@ -5,8 +5,8 @@ const state={
 
 
 //url for Atlas Cluster
-//const url='mongodb+srv://studentsindiadigital:DIGIstudents2023@cluster0.mta47ex.mongodb.net/?retryWrites=true&w=majority'
-const url='mongodb://127.0.0.1:27017'
+const url='mongodb+srv://studentsindiadigital:DIGIstudents2023@cluster0.mta47ex.mongodb.net/?retryWrites=true&w=majority'
+// const url='mongodb://127.0.0.1:27017'
 const dbname='examServer'
 
 const client = new MongoClient(url)
