@@ -29,53 +29,53 @@
   
    const questions=[
    {
-    q:'\"കവികൾക്ക് ലോകമെമ്പാടും ഒരു ഭാഷയേയുള്ളൂ; ഇലകൾക്കും തത്തകൾക്കും ഗൗളികൾക്കുമെന്നപോലെ.\" - ഈ വരികളുടെ രചയിതാവ്?',
-    options:['ഒ. എൻ. വി. കുറുപ്പ്','കടമ്മനിട്ട രാമകൃഷ്ണൻ','സച്ചിദാനന്ദൻ','ജി. ശങ്കരക്കുറുപ്പ്'],
-    answer:1
-   },
-   {
-    q:'മഷ്തിഷ്കത്തെ പൊതിഞ്ഞു കാണപ്പെടുന്ന മൂന്നു സ്തരപാളികളുള്ള ആവരണം? (The three layered membrane that covers the brain?)',
-    options:['ഷ്വാൻ കോശങ്ങൾ (Schwann Cells)','മെനിഞ്ചസ് (Meninges)','ഒലിഗോഡെൻഡ്രോസൈറ്റ് (Oligodendrocyte)','പെരികാർഡിയം (Pericardium)'],
+    q:'\ഒരു രണ്ടക്കസംഖ്യയെ മറ്റൊരു രണ്ടക്ക സംഖ്യകൊണ്ട് ഹരിച്ചപ്പോള്‍ 0.15 കിട്ടി. ഇവയില്‍ വലിയ സംഖ്യ ഏത്?  (A two digit number divided by another two digit number gives 0.15. Which is the bigger number of them?)',
+    options:['40','80','90','70'],
     answer:2
    },
    {
-    q:'where is the capital of India',
-    options:['New Delhi','Kolkatta','Varanashi','Agra'],
-    answer:1
+    q:'Who asked Tarun whether he had joined any training school?',
+    options:['Tarun\'s teacher','Tarun\'s mother','Tarun\'s friend','Ram Narayan'],
+    answer:4
    },
    {
-    q:'Who is the Prime Minister of India',
-    options:['Amit Shah','Narendra Modi','Rahul Gandhi','None of the above'],
+    q:'പ്രകാശസംശ്ലേഷണത്തിന്റെ ഉപോല്പ്പന്നം ഏത്?  (Which is the byproduct of photosynthesis?)',
+    options:['ഹൈഡ്രജന്‍ (Hydrogen)','ഓക്‌സിജന്‍ (Oxygen)','കാര്‍ബണ്‍ ഡൈഓക്‌സൈഡ് (Carbondioxide)','നൈട്രജന്‍ (Nitrogen)'],
     answer:2
    },
    {
-    q:'where is the capital of India',
-    options:['New Delhi','Kolkatta','Varanashi','Agra'],
+    q:'ഫോസിലുകളുടെ കാലപ്പഴക്കം കണ്ടെത്താന്‍ ഉപയോഗിക്കുന്ന ഐസോടോപ്പ് ഏത്? (Which isotope is used to determine the age of fossils?)',
+    options:['കാര്‍ബണ്‍-14  (Carbon-14) ','കാര്‍ബണ്‍-12  (Carbon-12)','കാര്‍ബണ്‍-13 (Carbon-13) ','കാര്‍ബണ്‍-15 (Carbon-15)'],
     answer:1
    },
    {
-    q:'Who is the Prime Minister of India',
-    options:['Amit Shah','Narendra Modi','Rahul Gandhi','None of the above'],
+    q:'പാലിലെ ജലത്തിന്റെ തോത് അളക്കാന്‍ ഉപയോഗിക്കുന്ന ഉപകരണം.  (Which device is used to measure the relative density of a liquid?)',
+    options:['ഹൈഡ്രോമീറ്റര്‍ (Hydrometer)','ലാക്ടോമീറ്റര്‍ (Lactometer) ','ബാരോമീറ്റര്‍ (Barometer)','തെര്‍മോമീറ്റര്‍ (Thermometer)'],
     answer:2
    },
    {
-    q:'where is the capital of India',
-    options:['New Delhi','Kolkatta','Varanashi','Agra'],
-    answer:1
+    q:'മലയാളത്തിന്റെ ഓര്‍ഫ്യൂസ്\' എന്നറിയപ്പെടുന്നതാര്?',
+    options:['പി.കുഞ്ഞിരാമന്‍നായര്‍','വള്ളത്തോള്‍ നാരായണമേനോന്‍','ചങ്ങമ്പുഴ കൃഷ്ണപിള്ള','ജി.കുമാരപിള്ള'],
+    answer:3
    },
    {
-    q:'Who is the Prime Minister of India',
-    options:['Amit Shah','Narendra Modi','Rahul Gandhi','None of the above'],
+    q:'താഴെ തന്നിരിക്കുന്നവയില്‍ \'തേന്മാവ്\' എന്നതിനു പകരം എഴുതാവുന്ന പദമേത്?',
+    options:['മരന്ദം','മാകന്ദം','മധു','മയൂരം'],
     answer:2
    },
    {
-    q:'where is the capital of India',
-    options:['New Delhi','Kolkatta','Varanashi','Agra'],
-    answer:1
+    q:'പാശ്ചാത്യ രാജ്യങ്ങളിലെ രേഖകളില്‍ \'മന്‍സമൗസ\' എന്നറിയപ്പെടുന്ന ഭരണാധികാരി?  (Who was known in European records as Mansa Musa?)',
+    options:['ഷാലമീന്‍ (Charlemagne)','കങ്കന്‍ മൂസ (Kankan Musa)','ചെങ്കിസ്ഖാന്‍ (Genghis Khan)','ജസ്റ്റീനിയന്‍ (Justinian)'],
+    answer:2
    },
    {
-    q:'Who is the Prime Minister of India',
-    options:['Amit Shah','Narendra Modi','Rahul Gandhi','None of the above'],
+    q:'മധ്യകാല ജപ്പാനിലെ ഷോഗണുകളുടെ കാലത്തെ ഭരണകേന്ദ്രം ഏതാണ്? (Which was the centre of power in Medieval Japan under the Shoguns?)',
+    options:['വെനീസ് (Venice)','ഗ്രാനഡ (Granada)','ടോക്കിയോ (Tokyo)','റോം (Rome)'],
+    answer:3
+   },
+   {
+    q:'അന്തരീക്ഷം നീരാവി പൂരിതമാകുന്ന അവസ്ഥ.  (The state at which the atmosphere is fully saturated with water.)',
+    options:['തുഷാരാങ്കം  (Dew point)','പൂരിതാവസ്ഥ (Saturation level)','ആര്‍ദ്രത  (Humidity)','ആപേക്ഷിക ആര്‍ദ്രത  (Relative Humidity)'],
     answer:2
    }
   ]

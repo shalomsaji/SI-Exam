@@ -29,53 +29,53 @@
   
    const questions=[
    {
-    q:'\"കവികൾക്ക് ലോകമെമ്പാടും ഒരു ഭാഷയേയുള്ളൂ; ഇലകൾക്കും തത്തകൾക്കും ഗൗളികൾക്കുമെന്നപോലെ.\" - ഈ വരികളുടെ രചയിതാവ്?',
-    options:['ഒ. എൻ. വി. കുറുപ്പ്','കടമ്മനിട്ട രാമകൃഷ്ണൻ','സച്ചിദാനന്ദൻ','ജി. ശങ്കരക്കുറുപ്പ്'],
+    q:'ചുവടെ കൊടുത്തിരിക്കുന്നവയില്‍ നിന്ന്  ചരിത്രാതീതകാലസ്രോതസ്സിന് ഉദാഹരണം കണ്ടെത്തി എഴുതുക. (Which one among the following is related to the source of Pre - Historic Period?)',
+    options:['പുസ്തകങ്ങള്‍ (Books)','നാണയങ്ങള്‍ (Coins)','ഗുഹാചിത്രങ്ങള്‍ (Cave Paintings)','താളിയോലകള്‍ (Palm Leaves)'],
+    answer:3
+   },
+   {
+    q:'2578 ...4 എന്ന് സംഖ്യ 9 ന്റെ ഗുണിതമായാല്‍ വിട്ടുപോയ അക്കം ഏത്? (2578 ...4  is multiple of nine, find the digit in the missing place)',
+    options:['1','2','3','4'],
     answer:1
    },
    {
-    q:'മഷ്തിഷ്കത്തെ പൊതിഞ്ഞു കാണപ്പെടുന്ന മൂന്നു സ്തരപാളികളുള്ള ആവരണം? (The three layered membrane that covers the brain?)',
-    options:['ഷ്വാൻ കോശങ്ങൾ (Schwann Cells)','മെനിഞ്ചസ് (Meninges)','ഒലിഗോഡെൻഡ്രോസൈറ്റ് (Oligodendrocyte)','പെരികാർഡിയം (Pericardium)'],
+    q:'ഒന്നാം സ്വാതന്ത്ര്യസമരം നടന്നത് AD 1857 ലാണ്. ഇത് ഏത് നൂറ്റാണ്ടാണ്? (The First war of Indian Independence was in AD1857, it was related to which Century?)',
+    options:['17-ാം നൂറ്റാണ്ട്(17th Century)','19-ാം നൂറ്റാണ്ട് (19th Century)','18-ാം നൂറ്റാണ്ട് (18th Century)','20-ാം നൂറ്റാണ്ട് (20th Century)'],
     answer:2
    },
    {
-    q:'where is the capital of India',
-    options:['New Delhi','Kolkatta','Varanashi','Agra'],
-    answer:1
-   },
-   {
-    q:'Who is the Prime Minister of India',
-    options:['Amit Shah','Narendra Modi','Rahul Gandhi','None of the above'],
+    q:'സൂചികള്‍ക്കിടയില്‍ ഏറ്റവും കുറവ് കോണളവുണ്ടാക്കുന്ന സമയമേത്? (In which time representing a clock gives least measure of angle between the hands?)',
+    options:['6 മണി (6 o’clock)','12 മണി (12 o’clock)','1 മണി (1 o’clock)','2 മണി (2 o’clock)'],
     answer:2
    },
    {
-    q:'where is the capital of India',
-    options:['New Delhi','Kolkatta','Varanashi','Agra'],
-    answer:1
+    q:'തന്നിരിക്കുന്നവയില്‍ ആരോഹികളില്‍ പെടുന്ന സസ്യമേത്? (Which of the following is a climber?)',
+    options:['തണ്ണിമത്തന്‍ (Water melon)','മധുരക്കിഴങ്ങ് (Sweet potato)','പാവല്‍ (Bitter gourd)','വെള്ളരി (Cucumber)'],
+    answer:3
    },
    {
-    q:'Who is the Prime Minister of India',
-    options:['Amit Shah','Narendra Modi','Rahul Gandhi','None of the above'],
+    q:'What did the fisherman and his wife fight for?',
+    options:['For food','For water','For mirror','For gold'],
+    answer:3
+   },
+   {
+    q:'രാത്രിസമയങ്ങളില്‍ സസ്യങ്ങള്‍ പുറത്ത് വിടുന്ന വാതകം. (Which of the following gases is given out by plants during night?)',
+    options:['ഓക്‌സിജന്‍ (Oxygen)','നൈട്രജന്‍ (Nitrogen)','കാര്‍ബണ്‍ ഡൈഓക്‌സൈഡ്  (Carbon dioxide)','ഹൈഡ്രജന്‍ (Hydrogen)'],
+    answer:3
+   },
+   {
+    q:'What kind of island did the fisherman and his wife live?',
+    options:['Island of trees','Lonely island','Island of birds','Island of animals'],
     answer:2
    },
    {
-    q:'where is the capital of India',
-    options:['New Delhi','Kolkatta','Varanashi','Agra'],
+    q:'താഴെ തന്നിരിക്കുന്നവരില്‍ പ്രാചീന കവിത്രയത്തില്‍ ഉള്‍പ്പെടാത്തത് ആര്?',
+    options:['കുമാരനാശാന്‍','ചെറുശ്ശേരി','കുഞ്ചന്‍നമ്പ്യാര്','എഴുത്തച്ഛന്'],
     answer:1
    },
    {
-    q:'Who is the Prime Minister of India',
-    options:['Amit Shah','Narendra Modi','Rahul Gandhi','None of the above'],
-    answer:2
-   },
-   {
-    q:'where is the capital of India',
-    options:['New Delhi','Kolkatta','Varanashi','Agra'],
-    answer:1
-   },
-   {
-    q:'Who is the Prime Minister of India',
-    options:['Amit Shah','Narendra Modi','Rahul Gandhi','None of the above'],
+    q:'\'വൃക്ഷത്തെ സ്‌നേഹിച്ച ബാലന്‍\' എന്ന കഥയുടെ രചയിതാവ്?',
+    options:['വൈക്കം മുഹമ്മദ് ബഷീര്‍','രവീന്ദ്രനാഥ ടാഗോര്‍','സി. രാധാകൃഷ്ണന്‍','തകഴി ശിവശങ്കരപ്പിള്ള'],
     answer:2
    }
   ]

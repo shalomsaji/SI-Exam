@@ -29,54 +29,54 @@
   
    const questions=[
    {
-    q:'\"കവികൾക്ക് ലോകമെമ്പാടും ഒരു ഭാഷയേയുള്ളൂ; ഇലകൾക്കും തത്തകൾക്കും ഗൗളികൾക്കുമെന്നപോലെ.\" - ഈ വരികളുടെ രചയിതാവ്?',
-    options:['ഒ. എൻ. വി. കുറുപ്പ്','കടമ്മനിട്ട രാമകൃഷ്ണൻ','സച്ചിദാനന്ദൻ','ജി. ശങ്കരക്കുറുപ്പ്'],
-    answer:1
+    q:'ഒരു ഏകീകൃത നാണയവ്യവസ്ഥ നടപ്പിലാക്കിയ സല്‍ത്തനത്ത് ഭരണാധികാരി ആരാണ്? (Name the sultanate ruler  who introduced the Uniform Monetary System.)',
+    options:['കുത്ബുദ്ദീന്‍ ഐബക്ക് (Qutbuddin Aybak)','ബാല്‍ബന്‍ (Balban)','ഇബ്രാഹിം ലോദി (Ibrahim Lodi)','ഇല്‍തുത്മിഷ്‌ (Iltutmish)'],
+    answer:4
    },
    {
-    q:'മഷ്തിഷ്കത്തെ പൊതിഞ്ഞു കാണപ്പെടുന്ന മൂന്നു സ്തരപാളികളുള്ള ആവരണം? (The three layered membrane that covers the brain?)',
-    options:['ഷ്വാൻ കോശങ്ങൾ (Schwann Cells)','മെനിഞ്ചസ് (Meninges)','ഒലിഗോഡെൻഡ്രോസൈറ്റ് (Oligodendrocyte)','പെരികാർഡിയം (Pericardium)'],
+    q:'തുടര്‍ച്ചയായ 5 എണ്ണല്‍സംഖ്യകളുടെ തുക 120 ആയാല്‍ മധ്യത്തിലെ സംഖ്യയേത്? (The sum of 5 consecutive natural numbers is 120. Find the middle number?)',
+    options:['22','24','26','28'],
     answer:2
    },
    {
-    q:'where is the capital of India',
-    options:['New Delhi','Kolkatta','Varanashi','Agra'],
+    q:'Why did Raja run away?',
+    options:['To escape from his grandfather’s beat','On seeing a snake','In afraid of ghosts','Because he was hungry'],
     answer:1
    },
    {
-    q:'Who is the Prime Minister of India',
-    options:['Amit Shah','Narendra Modi','Rahul Gandhi','None of the above'],
-    answer:2
+    q:'How many members were in Raja’s family?',
+    options:['Twelve','Three','Four','Five'],
+    answer:3
    },
    {
-    q:'where is the capital of India',
-    options:['New Delhi','Kolkatta','Varanashi','Agra'],
+    q:'കോശദ്രവ്യത്തില്‍ കാണപ്പെടുന്ന സവിശേഷഘടകങ്ങള്‍ ആണ് _______. (The parts embedded in the cytoplasm, that perform specific functions within the cell.)',
+    options:['ജീവദ്രവ്യം (Protoplasm)','കോശസ്തരം (Cell membrane)','കോശാംഗങ്ങള്‍ (Cell organelles)','ഫേനം (Vacuole)'],
+    answer:3
+   },
+   {
+    q:'കോശം ആദ്യമായി കണ്ടെത്തിയത് ആര്? (The cell was first discovered by ----)',
+    options:['റോബര്‍ട്ട് ഹുക്ക് (Robert Hooke)','റോബര്‍ട്ട് ബ്രൗണ് ‍(Robert Brown)','M.J ഷ്‌ളീഡന്‍ (M.J Schleiden)','മെല്‍വിന്‍  കാല്‍വിന്‍ (Melvin Calvin)'],
     answer:1
    },
    {
-    q:'Who is the Prime Minister of India',
-    options:['Amit Shah','Narendra Modi','Rahul Gandhi','None of the above'],
-    answer:2
-   },
-   {
-    q:'where is the capital of India',
-    options:['New Delhi','Kolkatta','Varanashi','Agra'],
+    q:'താഴെ തന്നിരിക്കുന്നവയില്‍ \'പാല്‍\' എന്ന് അര്‍ഥം വരുന്ന  പദമേത്?',
+    options:['ദുഗ്ധം','ദുര','ദ്രുമം','ധര'],
     answer:1
    },
    {
-    q:'Who is the Prime Minister of India',
-    options:['Amit Shah','Narendra Modi','Rahul Gandhi','None of the above'],
-    answer:2
+    q:'മലയാളത്തിലെ പ്രമുഖ കവിയായ കടമ്മനിട്ട രാമകൃഷ്ണന്റെ കൃതികളില്‍ പെടാത്തതേത്?',
+    options:['പുരുഷസൂക്തം','കുറത്തി','കോഴി','രമണന്‍'],
+    answer:4
    },
    {
-    q:'where is the capital of India',
-    options:['New Delhi','Kolkatta','Varanashi','Agra'],
+    q:'ഒരു വൃത്തത്തെ തുല്യഭാഗങ്ങളാക്കി ഒരു ഷഡ്ഭുജം വരയ്ക്കാന്‍ കേന്ദ്രത്തില്‍ എടുക്കേണ്ട കോണളവെത്ര ഡിഗ്രിയാണ്? (By dividing a circle into equal parts for constructing a hexagon, how much measure of angle can be taken at the centre of the circle?',
+    options:['60°','120°','30°','50°'],
     answer:1
    },
    {
-    q:'Who is the Prime Minister of India',
-    options:['Amit Shah','Narendra Modi','Rahul Gandhi','None of the above'],
-    answer:2
+    q:'ബാഹ്‌മിനി രാജ്യത്തിന്റെ സ്ഥാപകന്‍ (The founder of the Bahmani Kingdom)',
+    options:['ഹരിഹരന്‍ (Harihara)','ബുക്കന്‍ (Bukka)','അലാവുദ്ദീന്‍ ഹസ്സന്‍ ബാഹ്‌മന്‍ഷാ (Alauddin Hasan Bahman Shah)','ബാബര്‍ (Babur)'],
+    answer:3
    }
   ]
 

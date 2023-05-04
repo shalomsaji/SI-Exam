@@ -29,54 +29,54 @@
   
    const questions=[
    {
-    q:'\"കവികൾക്ക് ലോകമെമ്പാടും ഒരു ഭാഷയേയുള്ളൂ; ഇലകൾക്കും തത്തകൾക്കും ഗൗളികൾക്കുമെന്നപോലെ.\" - ഈ വരികളുടെ രചയിതാവ്?',
-    options:['ഒ. എൻ. വി. കുറുപ്പ്','കടമ്മനിട്ട രാമകൃഷ്ണൻ','സച്ചിദാനന്ദൻ','ജി. ശങ്കരക്കുറുപ്പ്'],
+    q:'മധ്യകാലഘട്ടത്തില്‍ യൂറോപ്പിലെ പണ്ഡിതഭാഷയായി കണക്കാക്കപ്പെട്ടിരുന്നത് ഏത് ഭാഷാകൂട്ടങ്ങളെയാണ്?  (From the following find out the elite and scholarly language which is used by the European in Medieval Period?)',
+    options:['ലാറ്റിന്‍ - ഗ്രീക്ക് (Latin - Greek)','ഇംഗ്ലീഷ് - ഗ്രീക്ക്  (English - Greek)','ഗ്രീക്ക് - ഫ്രഞ്ച് (Greek - French)','ഇംഗ്ലീഷ് -ഫ്രഞ്ച് (English - French)'],
     answer:1
    },
    {
-    q:'മഷ്തിഷ്കത്തെ പൊതിഞ്ഞു കാണപ്പെടുന്ന മൂന്നു സ്തരപാളികളുള്ള ആവരണം? (The three layered membrane that covers the brain?)',
-    options:['ഷ്വാൻ കോശങ്ങൾ (Schwann Cells)','മെനിഞ്ചസ് (Meninges)','ഒലിഗോഡെൻഡ്രോസൈറ്റ് (Oligodendrocyte)','പെരികാർഡിയം (Pericardium)'],
+    q:'ഒരു രേഖീയജോടിയിലെ കോണുകള്‍ തുല്യമായാല്‍ ഓരോ കോണും എത്ര ഡിഗ്രിവീതം? (If the angles in a linear pair are equal, find the measure of each?)',
+    options:['60°','90°','45°','55°'],
     answer:2
    },
    {
-    q:'where is the capital of India',
-    options:['New Delhi','Kolkatta','Varanashi','Agra'],
+    q:'ജൊഹാന്‍സ് ഗുട്ടന്‍ബര്‍ഗ് അച്ചടിയന്ത്രം കണ്ടുപിടിച്ച വര്‍ഷം. (When did Johannes Gutenberg invented the printing press?)',
+    options:['1453','1439','1440','1455'],
+    answer:2
+   },
+   {
+    q:'ചുവടെ കൊടുത്തിരിക്കുന്നവയില്‍ ലിയാനാര്‍ഡോ ഡാവിഞ്ചിയുടെ പ്രസിദ്ധമായ ചിത്രം ഏതാണ്?  (Find out the famous picture of Leonardo da - Vinci from the following?)',
+    options:['അന്ത്യവിധി (Last Judgment)','ഏഥന്‍സിലെ വിദ്യാലയം (The school of Athens)','മൊണാലിസ (Mona Lisa)','ഇവയൊന്നുമല്ല (None of these)'],
+    answer:3
+   },
+   {
+    q:'ഒരു ത്രികോണത്തിലെ രണ്ടു കോണുകളുടെ തുക a° ആയാല്‍ മൂന്നാമത്തെ കോണ്‍ എത്ര?  (If the sum of the two angles of a triangle is a°, what will be the measure of the third one?)',
+    options:['(160 - a)°','(110 - a)°','(180 - a)°','(150 - a)°'],
+    answer:3
+   },
+   {
+    q:'Who used the path to the river frequently?',
+    options:['Mountaineers','Tribals','Villagers','Travellers'],
+    answer:3
+   },
+   {
+    q:'താഴെതന്നിരിക്കുന്നവയില്‍ തെങ്ങിന്റെ സങ്കരയിനം വിളയേത്?  (Which among the following is an example for a hybrid coconut variety?)',
+    options:['ലക്ഷഗംഗ (Laksha Ganga)','കൈരളി (Kairali)','അനശ്വര (Anaswara)','അരുണിമ (Arunima)'],
     answer:1
    },
    {
-    q:'Who is the Prime Minister of India',
-    options:['Amit Shah','Narendra Modi','Rahul Gandhi','None of the above'],
-    answer:2
-   },
-   {
-    q:'where is the capital of India',
-    options:['New Delhi','Kolkatta','Varanashi','Agra'],
+    q:'സസ്യവളര്‍ച്ചയ്ക്ക് അത്യന്താപേക്ഷിതമായതും അന്തരീക്ഷത്തില്‍ സുലഭവുമായ മൂലകം ഏത്?  (A nutrient element causing plant growth, which is abundant in the atmosphere?)',
+    options:['നൈട്രജന്‍ (Nitrogen)','ഫോസ്ഫറസ് (Phosphorus)','പൊട്ടാസ്യം (Pottasium)','സോഡിയം (Sodium)'],
     answer:1
    },
    {
-    q:'Who is the Prime Minister of India',
-    options:['Amit Shah','Narendra Modi','Rahul Gandhi','None of the above'],
+    q:'താഴെ തന്നിരിക്കുന്നവയില്‍ രാജന്‍ കാക്കനാടന്റെ യാത്രാവിവരണം ഏത്?',
+    options:['ഹിമാലയസാമ്രാജ്യത്തില്‍','ഹിമവാന്റെ മുകള്‍ത്തട്ടില്‍','ഹൈമവതഭൂവില്‍','ഹിമവാന്റെ താഴ്‌വരയില്‍'],
     answer:2
    },
    {
-    q:'where is the capital of India',
-    options:['New Delhi','Kolkatta','Varanashi','Agra'],
+    q:'താഴെ തന്നിരിക്കുന്നവയില്‍ ഇടശ്ശേരി ഗോവിന്ദന്‍നായരുടെ വിശേഷണം ഏത്?',
+    options:['ശക്തിയുടെ കവി','നിളയുടെ കവി','കുട്ടനാടിന്റെ കഥാകാരന്‍','നിളയുടെ കഥാകാരന്‍'],
     answer:1
-   },
-   {
-    q:'Who is the Prime Minister of India',
-    options:['Amit Shah','Narendra Modi','Rahul Gandhi','None of the above'],
-    answer:2
-   },
-   {
-    q:'where is the capital of India',
-    options:['New Delhi','Kolkatta','Varanashi','Agra'],
-    answer:1
-   },
-   {
-    q:'Who is the Prime Minister of India',
-    options:['Amit Shah','Narendra Modi','Rahul Gandhi','None of the above'],
-    answer:2
    }
   ]
 

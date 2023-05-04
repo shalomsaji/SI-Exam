@@ -29,53 +29,53 @@
   
    const questions=[
    {
-    q:'\"കവികൾക്ക് ലോകമെമ്പാടും ഒരു ഭാഷയേയുള്ളൂ; ഇലകൾക്കും തത്തകൾക്കും ഗൗളികൾക്കുമെന്നപോലെ.\" - ഈ വരികളുടെ രചയിതാവ്?',
-    options:['ഒ. എൻ. വി. കുറുപ്പ്','കടമ്മനിട്ട രാമകൃഷ്ണൻ','സച്ചിദാനന്ദൻ','ജി. ശങ്കരക്കുറുപ്പ്'],
+    q:'നഗരജീവിതത്തിന്റെ ആദിമരൂപം നിലനിന്നിരുന്ന താമ്രശിലായുഗകേന്ദ്രം.  (In which Chalcolithic site the ancient forms of urban settlement existed?)',
+    options:['മെഹര്‍ഗഡ് (Mehrgarh)','ആദംഗഡ് (Adamgarh)','ചാതല്‍ ഹൊയുക്ക് (Catalhoyuk)','ബാഗൊര്‍ (Bagor)'],
+    answer:3
+   },
+   {
+    q:'ഒരു സമപാര്‍ശ്വത്രികോണത്തിന്റെ ഒരു കോണ്‍ 100° ആയാല്‍ മറ്റുകോണുകള്‍ എത്രവീതം? (One angle of an isosceles triangle is 100°, what are the other two angles?)',
+    options:['40° , 40°','30° , 50°','100° , 80°','10° , 30°'],
     answer:1
    },
    {
-    q:'മഷ്തിഷ്കത്തെ പൊതിഞ്ഞു കാണപ്പെടുന്ന മൂന്നു സ്തരപാളികളുള്ള ആവരണം? (The three layered membrane that covers the brain?)',
-    options:['ഷ്വാൻ കോശങ്ങൾ (Schwann Cells)','മെനിഞ്ചസ് (Meninges)','ഒലിഗോഡെൻഡ്രോസൈറ്റ് (Oligodendrocyte)','പെരികാർഡിയം (Pericardium)'],
+    q:'വേട്ടയാടല്‍ യുഗം\' എന്ന് വിശേഷിപ്പിക്കുന്നത് ഏതു കാലഘട്ടത്തെയാണ്?  (Which age is known as \‘the age of hunters\’?)',
+    options:['മധ്യശിലായുഗം  (Mesolithic Age)','പ്രാചീനശിലായുഗം   (Palaeolithic Age)','നവീനശിലായുഗം (Neolithic Age)','താമ്രശിലായുഗം (Chalcolithic Age)'],
     answer:2
    },
    {
-    q:'where is the capital of India',
-    options:['New Delhi','Kolkatta','Varanashi','Agra'],
-    answer:1
-   },
-   {
-    q:'Who is the Prime Minister of India',
-    options:['Amit Shah','Narendra Modi','Rahul Gandhi','None of the above'],
+    q:'ഹരപ്പന്‍ സംസ്‌കാരകാലത്ത് കടല്‍വഴി വാണിജ്യം നടത്തിയ കേന്ദ്രം.  (Name the centre of maritime trade in Harappan Civilization.)',
+    options:['റംഗ്പുര്‍ (Rangpur)','ലോഥാല്‍ (Lothal)','ഹരപ്പ (Harappa)','കാലിബംഗന്‍ (Kalibangan)'],
     answer:2
    },
    {
-    q:'where is the capital of India',
-    options:['New Delhi','Kolkatta','Varanashi','Agra'],
-    answer:1
+    q:'What did the boy find lying in the middle of the room?',
+    options:['A big cat','A priest','A gobblin rat','A broken statue'],
+    answer:3
    },
    {
-    q:'Who is the Prime Minister of India',
-    options:['Amit Shah','Narendra Modi','Rahul Gandhi','None of the above'],
+    q:'താഴെ പറയുന്നവയില്‍ ഏതാണ് പ്രകാശ തീവ്രതയുടെ യൂണിറ്റ്?  (Which among the following is the unit of luminous intensity?)',
+    options:['ആമ്പിയര്‍ (Ampere)','കാന്‍ഡില (Candela)','പ്രകാശവര്‍ഷം (Light year)','ജൂള്‍ (Joule)'],
     answer:2
    },
    {
-    q:'where is the capital of India',
-    options:['New Delhi','Kolkatta','Varanashi','Agra'],
+    q:'ഖരപദാര്‍ഥങ്ങള്‍ ചൂടാക്കിയാല്‍ ദ്രാവകമാകാതെ നേരിട്ട് വാതകമാകുന്ന പ്രക്രിയ.  (The process in which a solid substance changes to vapour without forming liquid on heating.)',
+    options:['ഉത്പതനം (Sublimation)','ബാഷ്പീകരണം (Vapourisation)','വ്യാപനം (Diffusion)','സ്വേദനം (Distillation)'],
     answer:1
    },
    {
-    q:'Who is the Prime Minister of India',
-    options:['Amit Shah','Narendra Modi','Rahul Gandhi','None of the above'],
+    q:'കോശത്തിനുള്ളില്‍ പ്രവേശിക്കുന്ന അന്യ വസ്തുക്കളെ നശിപ്പിക്കുന്ന കോശാംഗം.  (The organelle that destroys the foreign substances that enter the cell.)',
+    options:['സെന്‍ട്രോസോം (Centrosome)','ലൈസോസോം (Lysosome)','റൈബോസോം (Ribosome)','ഗോള്‍ജി കോംപ്ലക്‌സ്   (Golgi complex)'],
     answer:2
    },
    {
-    q:'where is the capital of India',
-    options:['New Delhi','Kolkatta','Varanashi','Agra'],
-    answer:1
+    q:'താഴെ തന്നിരിക്കുന്നവയില്‍ \'സൂര്യന്‍\' എന്നര്‍ഥം  വരാത്ത പദമേത്?',
+    options:['അരുണന്‍','മാര്‍ത്താണ്ഡന്‍','പനിമതി','ദിവാകരന്‍'],
+    answer:3
    },
    {
-    q:'Who is the Prime Minister of India',
-    options:['Amit Shah','Narendra Modi','Rahul Gandhi','None of the above'],
+    q:'അക്കാലം\' എന്ന പദം ശരിയായി പിരിച്ചെഴുതിയതേത്?',
+    options:['അ+ക്കാലം','അ+കാലം','ആ+കാലം','ആ+ക്കാലം'],
     answer:2
    }
   ]

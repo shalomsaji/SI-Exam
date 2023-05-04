@@ -40,42 +40,42 @@
    },
    {
     q:'താഴെ തന്നിരിക്കുന്നവയില്‍ തകഴി ശിവശങ്കരപ്പിള്ളയുടെ കൃതിയല്ലാത്തതേത്?',
-    options:['ചെമ്മീന്‍','Kolkatta','Varanashi','Agra'],
-    answer:1
-   },
-   {
-    q:'Who is the Prime Minister of India',
-    options:['Amit Shah','Narendra Modi','Rahul Gandhi','None of the above'],
+    options:['ചെമ്മീന്‍','രണ്ടാമൂഴം','രണ്ടിടങ്ങഴി','തോട്ടിയുടെ മകന്‍'],
     answer:2
    },
    {
-    q:'where is the capital of India',
-    options:['New Delhi','Kolkatta','Varanashi','Agra'],
-    answer:1
+    q:'\"മനുഷ്യന് ചില അവകാശങ്ങളുണ്ട്. അതിനെ ഹനിക്കാന്‍ ഒരു ഗവണ്‍മെന്റിനും അവകാശമില്ല.\" ഇത് ആരുടെ വാക്കുകളാണ്? (\“Everyone has some fundamental rights. No government has the right to suspend them.\”  Whose words are these?)',
+    options:['വോള്‍ട്ടയര്‍ (Voltaire)','റൂസ്സോ (Rousseau)','ജോണ്‍ ലോക്ക് (John Locke)','മൊണ്ടസ്‌ക്യൂ (Montesquieu)'],
+    answer:3
    },
    {
-    q:'Who is the Prime Minister of India',
-    options:['Amit Shah','Narendra Modi','Rahul Gandhi','None of the above'],
+    q:'82½° പൂര്‍വരേഖാംശത്തിലെ പ്രാദേശിക സമയം അറിയപ്പെടുന്നത്? (The local time at  82½° E is known as?)',
+    options:['അന്താരാഷ്ട്ര ദിനാങ്കരേഖ (International Date Line)','ഇന്ത്യന്‍ സ്റ്റാന്‍ഡേര്‍ഡ് സമയം  (Indian Standard Time)','ഗ്രീനിച്ച് സമയം (Greenwich Time)','ഗ്രീനിച്ച് രേഖ (Greenwich Meridian)'],
     answer:2
    },
    {
-    q:'where is the capital of India',
-    options:['New Delhi','Kolkatta','Varanashi','Agra'],
+    q:'ഹൃദയസ്പന്ദനം, ശ്വാസോച്ഛ്വാസം എന്നീ അനൈച്ഛിക പ്രവര്‍ത്തനങ്ങളെ നിയന്ത്രിക്കുന്ന മസ്തിഷ്‌ക ഭാഗം? (The part of the brain that regulates involuntary actions like heartbeat and breathing?)',
+    options:['തലാമസ് (Thalamus)','സെറിബെല്ലം (Cerebellum)','മെഡുല്ല ഒബ്ലോംഗേറ്റ (Medulla oblongata)','ഹൈപ്പോതലാമസ് (Hypothalamus)'],
+    answer:3
+   },
+   {
+    q:'ഇലക്ട്രോനെഗറ്റിവിറ്റി ഏറ്റവും കൂടിയ മൂലകമേത്? (Which element has the highest electronegativity?)',
+    options:['ഫ്‌ളൂറിന്‍ (Fluorine)','ബ്രോമിന്‍ (Bromine)','അയഡിന്‍ (Iodine)','നിയോണ്‍ (Neon)'],
     answer:1
    },
    {
-    q:'Who is the Prime Minister of India',
-    options:['Amit Shah','Narendra Modi','Rahul Gandhi','None of the above'],
-    answer:2
+    q:'നൈട്രജന്‍ ഡിസ്ചാര്‍ജ് ലാമ്പില്‍ നിന്ന് പുറത്തുവരുന്ന പ്രകാശത്തിന്റെ നിറമെന്ത്? (What is the colour of light emitted by Nitrogen discharge lamps?)',
+    options:['മഞ്ഞ (Yellow)','നീല (Blue)','ചുവപ്പ് (Red)','പച്ച (Green)'],
+    answer:3
    },
    {
-    q:'where is the capital of India',
-    options:['New Delhi','Kolkatta','Varanashi','Agra'],
+    q:'10 വശങ്ങളുള്ള ഒരു ബഹുഭുജത്തിന്റെ കോണുകള്‍ സമാന്തരശ്രേണിയിലാണ്. ഏറ്റവും ചെറിയ കോണിന്റെ അളവും ഏറ്റവും വലിയ കോണിന്റെ അളവും തമ്മിലുള്ള വ്യത്യാസം 90° ആയാല്‍ ഏറ്റവും ചെറിയ കോണിന്റെ അളവെത്ര? (The angles of a polygon having 10 sides are in arithmetic sequence. If the difference between the largest and the smallest angles is 90°, what is the measure of the smallest angle?)',
+    options:['99°','189°','288°','255°'],
     answer:1
    },
    {
-    q:'Who is the Prime Minister of India',
-    options:['Amit Shah','Narendra Modi','Rahul Gandhi','None of the above'],
+    q:'Who were the combatants?',
+    options:['The  myna and  the crow','The mongoose and the cobra','The cobra and the crow','The boy and the mongoose'],
     answer:2
    }
   ]
