@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Load bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <!-- Make responsive signup page with bootstrap -->
+    <!-- Align to center -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h4>Sign Up</h4>
+
+                        <div class="card-body">
+                            <form action="">
+                                <div class="form-group">
+                                    <label for="username">Username</label>
+                                    <input type="text" class="form-control" id="username">
+
+                                    <div class="form-group">
+                                        <label for="password">Password</label>
+                                        <input type="password" class="form-control" id="password">
+
+                                        <div class="checkbox">
+                                            <label>
+                                                <input type="checkbox"> Remember me
+                                            </label>
+
+
+                                        </div>
+                                        <button type="submit" class="btn btn-primary">Sign Up</button>
+                            </form>
+                            <p class="text-muted">Don't have an account?</p>
+
+                            <a href="#">Sign In</a>
+
+                        </div>
+                        <!-- /.form-group -->
+
+                    </div>
+                </div>
+            </div>
+</body>
+<!-- Load bootstrap script -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</html>
+
+<!-- connect to mongodb -->
+<!-- Path: app.js -->
+const express = require('express');
+const app = express();
+const mongoose = require('mongoose');
+const dotenv = require('dotenv');
+
+// Import routes
+const authRoute = require('./routes/auth');
+
+dotenv.config();
+
+// Connect to DB
+mongoose.connect(process.env.DB_CONNECT, { useNewUrlParser: true }, () =>
+    console.log('Connected to DB')
+);
+
+// Middleware
+app.use(express.json());
+
+// Route middleware
+app.use('/api/user', authRoute);
+
+app.listen(3000, () => console.log('Server up and running'));
+
+<!-- Path: routes/auth.js -->
+
+const router = require('express').Router();
+
+router.post('/register', (req, res) => {
+    res.send('Register');
+});
+
+module.exports = router;
+
+<!-- Path: .env -->
+DB_CONNECT=mongodb://localhost:27017/node_auth
+
+<!-- Path: package.json -->
+{
+    "name": "node_auth",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node app.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1",
+        "mongoose": "^5.10.9"
+    }
+}
+
+<!-- Path: .gitignore -->
+node_modules
+.env
+
+
+
+
+
+
+
+
